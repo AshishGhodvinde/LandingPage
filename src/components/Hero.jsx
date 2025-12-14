@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { ArrowRight, Code, Smartphone, Zap, Palette } from 'lucide-react';
+import logoImage from '../assets/logo.png';
 
 const Hero = () => {
   return (
@@ -59,7 +60,7 @@ const Hero = () => {
                   <div className="bg-white/20 rounded-lg h-40 flex items-center justify-center">
                     {/* Logo placement */}
                     <img 
-                      src="/logo.png" 
+                      src={logoImage}
                       alt="Ashish Dev Studio Logo" 
                       className="max-h-24 w-auto object-contain"
                     />
